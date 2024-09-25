@@ -1,0 +1,11 @@
+在此目錄下執行指令
+sudo make
+即建立Iperfer在/usr/local/sbin/
+接著在server端執行指令
+Iperfer -s -p <listen port>
+另外在client端
+Iperfer -c -h <server hostname> -p <server port> -t <time>
+即可開始
+
+如要刪除Iperfer 則輸入指令
+sudo make clean
